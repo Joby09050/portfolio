@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Joby George | MCA Student, Aspiring AI/ML Engineer, Python Developer</title>
+<meta name="description" content="Portfolio of Joby George, an MCA student from Kerala, India focused on Python, AI/ML, data science and web development.">
+<meta name="keywords" content="Joby George, Python Developer, AI, Machine Learning, Data Science, Django, Kerala, Portfolio">
+<meta name="author" content="Joby George">
+<meta name="theme-color" content="#060a18">
+<meta property="og:title" content="Joby George | Portfolio">
+<meta property="og:description" content="MCA student, aspiring AI/ML engineer and Python developer.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="profile.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav" id="nav">
+  <a href="#home" class="logo">Joby<span>.</span></a>
+  <button class="burger" id="burger" aria-label="Toggle menu" aria-expanded="false"><i></i><i></i><i></i></button>
+  <nav id="menu">
+    <a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a>
+    <a href="#github">GitHub</a><a href="#photography">Photography</a><a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="hero-text">
+    <p class="hello">Hi, I'm</p>
+    <h1>Joby George</h1>
+    <p class="role">MCA Student | Aspiring AI/ML Engineer | Python Developer</p>
+    <p class="lead">I build things with Python and the web, and I'm learning to make machines learn from data. Based in Kerala, India.</p>
+    <div class="btns">
+      <a class="btn primary" href="https://github.com/Joby09050" target="_blank" rel="noopener">View GitHub</a>
+      <a class="btn ghost" href="resume.pdf" download="Joby_George_Resume.pdf" target="_blank" rel="noopener">Download resume</a>
+    </div>
+  </div>
+  <div class="hero-img"><img src="profile.jpg" alt="Portrait of Joby George" width="600" height="600"></div>
+</section>
+
+<section id="about" class="sec">
+  <h2>About</h2>
+  <div class="about">
+    <p>I'm a Master of Computer Applications student in Kerala. My MCA has taken me from database theory and operating systems to full-stack projects in Django and MySQL, and I enjoy the point where a solid backend meets a clean interface.</p>
+    <p>Right now I'm steering toward AI and machine learning: working with data in NumPy and Pandas, training models with Scikit-learn, and turning the results into something people can use. Away from the screen, I photograph macro and nature subjects.</p>
+  </div>
+</section>
+
+<section id="skills" class="sec">
+  <h2>Skills</h2>
+  <ul class="chips" id="skillList">
+    <li>Python</li><li>Java</li><li>JavaScript</li><li>HTML</li><li>CSS</li>
+    <li>Django</li><li>MySQL</li><li>NumPy</li><li>Pandas</li><li>Scikit-learn</li>
+  </ul>
+</section>
+
+<section id="projects" class="sec">
+  <h2>Projects</h2>
+  <div class="grid">
+    <article class="card">
+      <h3>MedTrack</h3>
+      <p>A Django platform for consent-driven digital health records, where patients decide who can see their data.</p>
+      <div class="tags"><span>Django</span><span>MySQL</span><span>HTML/CSS</span></div>
+      <a href="https://github.com/Joby09050?tab=repositories" target="_blank" rel="noopener">View on GitHub</a>
+    </article>
+    <article class="card">
+      <h3>Python Expense Tracker</h3>
+      <p>Record income and spending, group expenses by category and see where the month's money went.</p>
+      <div class="tags"><span>Python</span></div>
+      <a href="https://github.com/Joby09050?tab=repositories" target="_blank" rel="noopener">View on GitHub</a>
+    </article>
+    <article class="card">
+      <h3>Machine Learning Projects</h3>
+      <p>Hands-on models built with Pandas and Scikit-learn: cleaning data, training, and evaluating predictions.</p>
+      <div class="tags"><span>Pandas</span><span>NumPy</span><span>Scikit-learn</span></div>
+      <a href="https://github.com/Joby09050?tab=repositories" target="_blank" rel="noopener">View on GitHub</a>
+    </article>
+  </div>
+</section>
+
+<section id="github" class="sec">
+  <h2>GitHub activity</h2>
+  <div class="stats" id="stats">
+    <div><b id="sRepos">-</b><span>Repositories</span></div>
+    <div><b id="sFollowers">-</b><span>Followers</span></div>
+    <div><b id="sStars">-</b><span>Stars earned</span></div>
+    <div><b id="sSince">-</b><span>Member since</span></div>
+  </div>
+  <h3 class="sub">Most-used languages</h3>
+  <div class="bar" id="langBar"></div>
+  <ul class="legend" id="langLegend"></ul>
+  <p class="note" id="ghNote" hidden>GitHub data couldn't be loaded right now. The cards below link to the live profile.</p>
+  <div class="gh-imgs">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Joby09050&theme=dark&background=0B1226&ring=8B5CF6&fire=3B82F6&currStreakLabel=60A5FA&hide_border=true" alt="GitHub contribution streak for Joby09050" loading="lazy" onerror="this.remove()">
+    <img src="https://ghchart.rshah.org/8b5cf6/Joby09050" alt="GitHub contribution graph for Joby09050" loading="lazy" class="graph" onerror="this.remove()">
+  </div>
+</section>
+
+<section id="photography" class="sec">
+  <h2>Photography</h2>
+  <p class="muted">Macro and nature. Select a photo to enlarge it.</p>
+  <div class="gallery">
+    <button><img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80" alt="Real-life nature landscape" loading="lazy" width="800" height="600"></button>
+    <button><img src="https://images.unsplash.com/photo-1521295121783-8a321d551ad2?auto=format&fit=crop&w=900&q=80" alt="Real-life city street photography" loading="lazy" width="800" height="600"></button>
+    <button><img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=900&q=80" alt="Real-life lake and mountain scene" loading="lazy" width="800" height="600"></button>
+    <button><img src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?auto=format&fit=crop&w=900&q=80" alt="Real-life scenic forest path" loading="lazy" width="800" height="600"></button>
+    <button><img src="https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&w=900&q=80" alt="Real-life close-up wildlife shot" loading="lazy" width="800" height="600"></button>
+    <button><img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=900&q=80" alt="Real-life beautiful travel destination" loading="lazy" width="800" height="600"></button>
+  </div>
+</section>
+
+<section id="contact" class="sec">
+  <h2>Contact</h2>
+  <p class="muted">Open to internships, collaborations and conversations about AI, Python and the web.</p>
+  <div class="btns">
+    <a class="btn primary" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=jobygeorge.9050@gmail.com" target="_blank" rel="noopener">Email me</a>
+    <a class="btn ghost" href="https://github.com/Joby09050" target="_blank" rel="noopener">GitHub</a>
+    <a class="btn ghost" href="https://www.linkedin.com/in/joby-george-515249354/" target="_blank" rel="noopener">LinkedIn</a>
+  </div>
+</section>
+</main>
+
+<footer>&copy; <span id="year">2026</span> Joby George. Built with HTML, CSS and JavaScript.</footer>
+<div class="lightbox" id="lightbox" hidden><button aria-label="Close">&times;</button><img alt=""></div>
+<script src="script.js"></script>
+</body>
+</html>
